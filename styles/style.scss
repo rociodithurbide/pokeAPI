@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+.containerWrapper{
+  display: flex;
+  color: #343434;
+  font-family: 'Lato', sans-serif;
+  
+  .pokemonListContainer{
+    min-height: 100vh;
+    width: 21.875rem;
+    background-color: #FFEAEA;
+    padding: 1.4rem;
+    
+    .pokemonListTitle{
+      font-size: 2rem;
+      font-weight: 900;
+      margin-bottom: 1.4rem;
+      text-align: center;
+    }
+    .pokemonButton{
+      display: block;
+      width: 100%;
+      background-color: #FFB3B3;
+      padding: 0.8rem 2rem;
+      margin-bottom: 1rem;
+      border: 0;
+      border-radius: 2rem;
+      text-transform: capitalize; 
+      font-size: 1rem;
+      cursor: pointer;
+      
+      &:hover{
+        background-color: #e09595;
+        color: #FFF;
+        transition: all 0.1s ease-in;
+      }
+    }
+  }
+  .pokemonCard{
+    margin: 1.4rem 2rem;
+    width: 100%;
+    .pokemonTitle{
+      color: #D27575;
+      font-weight: 900;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      text-transform: capitalize;
+    }
+    .pokemonTitle:after{
+      content: " ";
+      display: block;
+      width: 100%;
+      border-bottom: 1px solid #ddd;
+      margin-top: 1rem;
+    }
+    .featuresWrapper{
+      margin-bottom: 1.4rem;
+      
+      .featuresTitle{
+        color: #D27575;
+        font-weight: 700;
+        font-size: 1.8rem;
+        margin-bottom: 0.8rem;
+      }
+      p{
+        margin-bottom: 0.625rem;
+        font-weight: 700;
+        span{
+          font-weight: 400;
+        }
+      }
+    }
+    
+    .abilitiesWrapper{
+      .abilitiesTitle{
+        color: #D27575;
+        font-weight: 700;
+        font-size: 1.8rem;
+        margin-bottom: 0.8rem;
+      }
+    }
+  }
+}

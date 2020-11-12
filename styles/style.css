@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.containerWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #343434;
+  font-family: 'Lato', sans-serif;
+}
+
+.containerWrapper .pokemonListContainer {
+  min-height: 100vh;
+  width: 21.875rem;
+  background-color: #FFEAEA;
+  padding: 1.4rem;
+}
+
+.containerWrapper .pokemonListContainer .pokemonListTitle {
+  font-size: 2rem;
+  font-weight: 900;
+  margin-bottom: 1.4rem;
+  text-align: center;
+}
+
+.containerWrapper .pokemonListContainer .pokemonButton {
+  display: block;
+  width: 100%;
+  background-color: #FFB3B3;
+  padding: 0.8rem 2rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-radius: 2rem;
+  text-transform: capitalize;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.containerWrapper .pokemonListContainer .pokemonButton:hover {
+  background-color: #e09595;
+  color: #FFF;
+  -webkit-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+}
+
+.containerWrapper .pokemonCard {
+  margin: 1.4rem 2rem;
+  width: 100%;
+}
+
+.containerWrapper .pokemonCard .pokemonTitle {
+  color: #D27575;
+  font-weight: 900;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+}
+
+.containerWrapper .pokemonCard .pokemonTitle:after {
+  content: " ";
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+  margin-top: 1rem;
+}
+
+.containerWrapper .pokemonCard .featuresWrapper {
+  margin-bottom: 1.4rem;
+}
+
+.containerWrapper .pokemonCard .featuresWrapper .featuresTitle {
+  color: #D27575;
+  font-weight: 700;
+  font-size: 1.8rem;
+  margin-bottom: 0.8rem;
+}
+
+.containerWrapper .pokemonCard .featuresWrapper p {
+  margin-bottom: 0.625rem;
+  font-weight: 700;
+}
+
+.containerWrapper .pokemonCard .featuresWrapper p span {
+  font-weight: 400;
+}
+
+.containerWrapper .pokemonCard .abilitiesWrapper .abilitiesTitle {
+  color: #D27575;
+  font-weight: 700;
+  font-size: 1.8rem;
+  margin-bottom: 0.8rem;
+}
+/*# sourceMappingURL=style.css.map */
